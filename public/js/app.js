@@ -6,9 +6,10 @@ var tournament=angular.module('tournament', [
 tournament.config(function($routeProvider){
 	$routeProvider
 		.when('/', {
-			templateUrl: 'partials/dashboard.html',
+			templateUrl: 'partials/dashboard.html'
+		
 		})
 		.otherwise({
-			templateUrl: 'partials/dashbaord.html'
+			redirectTo: '/'
 		})
 });
