@@ -1,0 +1,16 @@
+{
+  "name": "tournament",
+  "version": "1.0.0",
+  "description": "People can sign up for tournament and make brackets",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Heather Walker",
+  "license": "ISC",
+  "dependencies": {
+  	"body-parser": "latest",
+  	"express": "~4.2.0",
+  	"sequelize": "latest"
+  }
+}
