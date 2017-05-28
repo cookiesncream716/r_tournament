@@ -1,3 +1,3 @@
-tournament.controller('dashboardController', function($scope, $location){
+tournament.controller('dashboardController', function($scope){
 
 })
